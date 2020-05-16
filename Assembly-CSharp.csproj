@@ -658,14 +658,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="PlayFab.csproj">
-      <Project>{85d9d173-d58e-9eef-7297-ff50c36d0153}</Project>
-      <Name>PlayFab</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
     <ProjectReference Include="PlayFabEditorExtensions.csproj">
       <Project>{33cb08f0-3c9c-85eb-d4a9-94c84f701d1b}</Project>
       <Name>PlayFabEditorExtensions</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="PlayFab.csproj">
+      <Project>{85d9d173-d58e-9eef-7297-ff50c36d0153}</Project>
+      <Name>PlayFab</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="PlayFabSDKEditor.csproj">
